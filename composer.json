@@ -1,0 +1,19 @@
+{
+    "name": "pichau/todo-list",
+    "autoload": {
+        "psr-4": {
+            "Pichau\\TodoList\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VictorRMarcelino",
+            "email": "httpsvictorramos@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/routing": "^12.42",
+        "firebase/php-jwt": "^6.11",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
